@@ -2,7 +2,7 @@ carrito_compra =[]
 
 def agregar_producto():
     nombre=input("Ingrese el Nombre del producto:")
-    cantidad=int(input("Ingrese la cantidad:"))
+    cantidad=int(input("Ingrese la cantidad:")
     precio_unitario=float(input("Ingrese el precio por unidad:"))
 
     producto = {

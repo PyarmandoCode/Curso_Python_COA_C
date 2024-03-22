@@ -32,3 +32,23 @@ __init__:inicializar los atributos de la biblioteca
 """
 
 
+class Libro:
+    def __init__(self,titulo,autor,año,genero):
+        self.titulo=titulo
+        self.autor=autor
+        self.año=año
+        self.genero=genero
+
+    def detalles(self):
+        return f"Titulo:{self.titulo},Autor:{self.autor},Año{self.año},Genero {self.genero}"
+    
+libro1=Libro("Cien años de soledad","Garcia Marques",1967,"Realismo")    
+print(libro1.autor)
+libro1.año
+libro1.genero
+print(libro1.__dict__)
+
+
+
+
+
